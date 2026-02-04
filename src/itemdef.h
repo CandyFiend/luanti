@@ -100,6 +100,9 @@ struct ItemDefinition
 	video::SColor color; // The fallback color of the node.
 	v3f wield_scale;
 
+	bool skip_wield_anim_on_stack; // Skip the wield animation if this item is equipped
+	bool skip_wield_anim_on_meta; // Skip the wield anim if the item's meta has changed
+
 	/*
 		Item stack and interaction properties
 	*/
