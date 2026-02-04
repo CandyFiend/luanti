@@ -1,5 +1,7 @@
 local S = core.get_translator("testitems")
 
+dofile(core.get_modpath("testitems") .. "/compass.lua")
+
 --
 -- Texture overlays for items
 --
